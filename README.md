@@ -1,5 +1,6 @@
 # Deadlands
 
-This is a website for Deadlands campagin materials.
+This is a website for Deadlands campaign materials.
 
-[Monster List](https://fyggh.github.io/Deadlands/docs/coffinrock.html)
+## Adventures
+[Coffin Rock](https://fyggh.github.io/Deadlands/docs/coffinrock.html)
