@@ -5,18 +5,18 @@
 	<title>Coffin Rock</title>
 </head>
 <body>
-	<template id="circleboi">
+	<template id="circle-boi">
 		<svg height="3em" width="3em">
 			<circle cx="50" cy="50" r="40" stroke="red" fill="grey" />
 		</svg>
 	</template>
 
 	<script type="text/javascript">
-		customElements.define('circleboi',
+		customElements.define('circle-boi',
 			class extends HTMLElement {
 				constructor() {
 					super();
-					let template = document.getElementById('circleboi');
+					let template = document.getElementById('circle-boi');
 					let templateContent = template.content;
 
 					const shadowRoot = this.attachShadow({mode: 'open'})
@@ -26,6 +26,6 @@
 	</script>
 
 	<p>Welcome to Coffin Rock</p>
-	<circleboi></circleboi>
+	<circle-boi></circle-boi>
 </body>
 </html>
